@@ -11,7 +11,7 @@
 <body class="flex justify-center items-center min-h-screen">
     <div class="border p-4 rounded-lg md:w-max w-[90%]">
         <h2 class="font-semibold text-3xl mb-5">HashCheck</h2>
-        <form action="/password-checker/action.php" method="post">
+        <form action="/action.php" method="post">
             <div class="flex flex-col md:flex-row">
                 <input type="text" placeholder="Hash here" name="hash" class="input input-bordered w-full md:w-[270px] md:mb-0 mb-3" required />
                 <input type="text" placeholder="String here" name="string" class="input input-bordered w-full md:w-[270px] md:mx-3 md:mb-0 mb-6" required />
